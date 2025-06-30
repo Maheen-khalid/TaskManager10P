@@ -1,0 +1,54 @@
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\appsettings.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Task Manger.exe
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Task Manger.deps.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Task Manger.runtimeconfig.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Task Manger.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Task Manger.pdb
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.csproj.AssemblyReference.cache
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.AssemblyInfoInputs.cache
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.AssemblyInfo.cs
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.csproj.CoreCompileInputs.cache
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.sourcelink.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets\msbuild.Task Manger.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets\msbuild.build.Task Manger.props
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Task Manger.props
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Task Manger.props
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\scopedcss\bundle\Task Manger.styles.css
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Man.3673759F.Up2Date
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\refint\Task Manger.dll
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.pdb
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\Task Manger.genruntimeconfig.cache
+C:\Users\Maheen Khalid\Desktop\10p internship\TaskManager10P\Backend\Task Manger\Task Manger\obj\Debug\net8.0\ref\Task Manger.dll
