@@ -1,24 +1,37 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Serilog;
+//using Serilog;
 using System.Text;
 using Task_Manger.Data;
 using Task_Manger.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+// Configure Serilog
+//Log.Logger = new LoggerConfiguration()
+//    .WriteTo.Console()
+//    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+//    .Enrich.FromLogContext()
+//    .CreateLogger();
+
+//builder.Host.UseSerilog();
+
+// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
-        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod());
 });
 
+// Entity Framework with MySQL
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -26,6 +39,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     )
 );
 
+// JWT Authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -41,21 +55,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
-    .Enrich.FromLogContext()
-    .CreateLogger();
-
-builder.Host.UseSerilog();
-
 var app = builder.Build();
 
+// Middleware pipeline
 app.UseCors("AllowAll");
-app.UseAuthentication();
-app.UseAuthorization();
-app.UseMiddleware<ExceptionMiddleware>();
-
 
 if (app.Environment.IsDevelopment())
 {
@@ -63,6 +66,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionMiddleware>();
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseHttpsRedirection();
 app.MapControllers();
+
 app.Run();

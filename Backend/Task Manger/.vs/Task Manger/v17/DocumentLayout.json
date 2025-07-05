@@ -11,6 +11,22 @@
       "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|c:\\users\\maheen khalid\\desktop\\10p internship\\taskmanager10p\\backend\\task manger\\task manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4396B76E-49F1-4E13-8E0B-36C1A335A795}|Task Manger\\Task Manger.csproj|solutionrelative:task manger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\TaskManager.Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +58,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Task Manger\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Task Manger\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T20:06:03.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Task Manger\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Models\\Task.cs",
+              "RelativeToolTip": "Task Manger\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T19:59:28.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\TaskManager.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "TaskManager.Tests\\UnitTest1.cs",
@@ -73,14 +107,14 @@
               "RelativeDocumentMoniker": "TaskManager.Tests\\TestAuthController.cs",
               "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\TaskManager.Tests\\TestAuthController.cs",
               "RelativeToolTip": "TaskManager.Tests\\TestAuthController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAQwI4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwI4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T20:11:24.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Task Manger\\Middleware\\ExceptionMiddleware.cs",
@@ -93,25 +127,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\TaskManager.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Task Manger\\TaskManager.Tests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\TaskManager.Tests\\UnitTest1.cs",
               "RelativeToolTip": "Task Manger\\TaskManager.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T19:43:31.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Program.cs",
               "RelativeDocumentMoniker": "Task Manger\\Program.cs",
               "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Program.cs",
               "RelativeToolTip": "Task Manger\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T21:24:12.076Z",
               "EditorCaption": ""
@@ -124,27 +157,27 @@
               "RelativeDocumentMoniker": "Task Manger\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Task Manger\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGkAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAcwG0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T21:21:29.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Task Manger\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Task Manger\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T21:21:00.021Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Task Manger\\DTOs\\UserDto.cs",
@@ -157,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\Models\\User.cs",
               "RelativeDocumentMoniker": "Task Manger\\Models\\User.cs",
@@ -170,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Maheen Khalid\\Desktop\\10p internship\\TaskManager10P\\Backend\\Task Manger\\Task Manger\\appsettings.json",
               "RelativeDocumentMoniker": "Task Manger\\appsettings.json",

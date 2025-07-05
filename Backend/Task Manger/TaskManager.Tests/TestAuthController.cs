@@ -36,7 +36,7 @@ namespace TaskManager.Tests
         }
 
         [Fact]
-        public async Task Register_ShouldReturnOk_WhenUserIsNew()
+        public async System.Threading.Tasks.Task Register_ShouldReturnOk_WhenUserIsNew()
         {
             var (controller, _) = CreateControllerWithInMemoryDb();
             var request = new UserDto
@@ -53,7 +53,7 @@ namespace TaskManager.Tests
         }
 
         [Fact]
-        public async Task Register_ShouldReturnBadRequest_WhenUsernameExists()
+        public async System.Threading.Tasks.Task Register_ShouldReturnBadRequest_WhenUsernameExists()
         {
             var (controller, _) = CreateControllerWithInMemoryDb();
             var request = new UserDto
@@ -105,7 +105,7 @@ namespace TaskManager.Tests
 
 
         [Fact]
-        public async Task Login_ShouldReturnUnauthorized_WhenCredentialsAreInvalid()
+        public async System.Threading.Tasks.Task Login_ShouldReturnUnauthorized_WhenCredentialsAreInvalid()
         {
             var (controller, _) = CreateControllerWithInMemoryDb();
             var registerDto = new UserDto
@@ -156,7 +156,7 @@ namespace TaskManager.Tests
 
 
         [Fact]
-        public async Task Register_ShouldStoreEmailCorrectly()
+        public async System.Threading.Tasks.Task Register_ShouldStoreEmailCorrectly()
         {
             var (controller, context) = CreateControllerWithInMemoryDb();
             var dto = new UserDto

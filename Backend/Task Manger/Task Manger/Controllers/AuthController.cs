@@ -26,6 +26,10 @@ namespace Task_Manger.Controllers
             _logger = logger;
         }
 
+        public AuthController(AppDbContext context, IConfiguration @object)
+        {
+        }
+
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserDto request)
         {

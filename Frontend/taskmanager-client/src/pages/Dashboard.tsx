@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import {
   FiGrid,
@@ -13,6 +13,7 @@ import {
   FiPlus,
   FiX
 } from "react-icons/fi";
+import { MdEdit, MdDelete } from "react-icons/md";
 import "../styles/Dashboard.css";
 
 const tasksData = {
@@ -68,27 +69,36 @@ const StatsBar = ({ stats }: any) => (
   </div>
 );
 
-const Column = ({ title, tasks, onAdd }: { title: string; tasks: any[]; onAdd: () => void }) => (
+const Column = ({ title, tasks, onAdd, onEdit, onDelete }: any) => (
   <div className="dashboard-column">
     <div className="dashboard-column-header">
       <h2>{title}</h2>
       <span className="dashboard-more">⋮</span>
     </div>
     <div className="dashboard-task-list">
-      {tasks.map((task) => (
+      {tasks.map((task: any) => (
         <motion.div layout key={task.id} className="dashboard-task-card">
           <h3>{task.title}</h3>
           <p>{task.description}</p>
+          <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
+            <button className="icon-button" onClick={() => onEdit(task, title.toLowerCase().replace(" ", ""))}><MdEdit size={18} /></button>
+            <button className="icon-button" onClick={() => onDelete(task.id, title.toLowerCase().replace(" ", ""))}><MdDelete size={18} /></button>
+          </div>
         </motion.div>
       ))}
-      <button className="dashboard-add-task" onClick={onAdd}><FiPlus /> Add Task</button>
+      <button className="dashboard-add-task" onClick={() => onAdd(title.toLowerCase().replace(" ", ""))}><FiPlus /> Add Task</button>
     </div>
   </div>
 );
 
-const TaskModal = ({ isOpen, onClose, onSubmit }: any) => {
-  const [title, setTitle] = useState("");
-  const [description, setDescription] = useState("");
+const TaskModal = ({ isOpen, onClose, onSubmit, editingTask }: any) => {
+  const [title, setTitle] = useState(editingTask?.title || "");
+  const [description, setDescription] = useState(editingTask?.description || "");
+
+  useEffect(() => {
+    setTitle(editingTask?.title || "");
+    setDescription(editingTask?.description || "");
+  }, [editingTask]);
 
   if (!isOpen) return null;
 
@@ -96,10 +106,10 @@ const TaskModal = ({ isOpen, onClose, onSubmit }: any) => {
     <div className="modal-overlay">
       <div className="modal">
         <button className="modal-close" onClick={onClose}><FiX /></button>
-        <h2>Add New Task</h2>
+        <h2>{editingTask ? "Edit Task" : "Add New Task"}</h2>
         <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
         <textarea placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)}></textarea>
-        <button className="modal-submit" onClick={() => onSubmit({ title, description })}>Add Task</button>
+        <button className="modal-submit" onClick={() => onSubmit({ title, description, id: editingTask?.id })}>{editingTask ? "Update Task" : "Add Task"}</button>
       </div>
     </div>
   );
@@ -112,18 +122,40 @@ const Dashboard: React.FC = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [taskType, setTaskType] = useState<"todo" | "inProgress" | "done">("todo");
   const [data, setData] = useState(tasksData);
+  const [editingTask, setEditingTask] = useState(null);
 
   const toggleTheme = () => setDarkMode(!darkMode);
   const toggleSidebar = () => setSidebarCollapsed(!sidebarCollapsed);
 
   const openModal = (type: "todo" | "inProgress" | "done") => {
     setTaskType(type);
+    setEditingTask(null);
     setModalOpen(true);
   };
 
-  const addTask = ({ title, description }: { title: string; description: string }) => {
-    const newTask = { id: Date.now(), title, description };
-    setData((prev) => ({ ...prev, [taskType]: [...prev[taskType], newTask] }));
+  const handleEdit = (task: any, type: "todo" | "inProgress" | "done") => {
+    setTaskType(type);
+    setEditingTask(task);
+    setModalOpen(true);
+  };
+
+  const handleDelete = (id: number, type: "todo" | "inProgress" | "done") => {
+    setData((prev) => ({
+      ...prev,
+      [type]: prev[type].filter((task: any) => task.id !== id),
+    }));
+  };
+
+  const handleSubmit = ({ title, description, id }: any) => {
+    if (editingTask) {
+      setData((prev) => ({
+        ...prev,
+        [taskType]: prev[taskType].map((task: any) => task.id === id ? { ...task, title, description } : task)
+      }));
+    } else {
+      const newTask = { id: Date.now(), title, description };
+      setData((prev) => ({ ...prev, [taskType]: [...prev[taskType], newTask] }));
+    }
     setModalOpen(false);
   };
 
@@ -141,15 +173,14 @@ const Dashboard: React.FC = () => {
         <Topbar toggleTheme={toggleTheme} darkMode={darkMode} toggleSidebar={toggleSidebar} />
         <StatsBar stats={stats} />
         <div className="dashboard-board">
-          <Column title="To Do" tasks={data.todo} onAdd={() => openModal("todo")} />
-          <Column title="In Progress" tasks={data.inProgress} onAdd={() => openModal("inProgress")} />
-          <Column title="Done" tasks={data.done} onAdd={() => openModal("done")} />
+          <Column title="To Do" tasks={data.todo} onAdd={openModal} onEdit={handleEdit} onDelete={handleDelete} />
+          <Column title="In Progress" tasks={data.inProgress} onAdd={openModal} onEdit={handleEdit} onDelete={handleDelete} />
+          <Column title="Done" tasks={data.done} onAdd={openModal} onEdit={handleEdit} onDelete={handleDelete} />
         </div>
       </div>
-      <TaskModal isOpen={modalOpen} onClose={() => setModalOpen(false)} onSubmit={addTask} />
+      <TaskModal isOpen={modalOpen} onClose={() => setModalOpen(false)} onSubmit={handleSubmit} editingTask={editingTask} />
     </div>
   );
 };
 
 export default Dashboard;
-
